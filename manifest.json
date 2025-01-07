@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "LeetCode to VSCode",
+    "version": "1.0",
+  
+    "description": "Allows you to use VSCode to solve LeetCode problems",
+  
+    "icons": {
+      "48": "icons/leetcode-48.png",
+      "96": "icons/leetcode-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.leetcode.com/problems/*"],
+        "js": ["borderify.js"]
+      }
+    ]
+  }
+  
