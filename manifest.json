@@ -13,7 +13,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.leetcode.com/problems/*"],
-        "js": ["lc2vsc.js"]
+        "js": ["exportButton.js"]
       }
     ]
   }
